@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: src/main/java/com/example/springbootliquibase/repository/db/changelog/001-initial-schema.sql
+  - include:
+      file: src/main/java/com/example/springbootliquibase/repository/db/changelog/002-alter-schema.sql
+  - include:
+      file: src/main/java/com/example/springbootliquibase/repository/db/changelog/003-insert-schema.sql
